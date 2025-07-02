@@ -84,15 +84,13 @@ const About = () => {
                 I am open to working both on-site at a company and remotely
               </p>
               <p className="grid-subtext">
-                I'm based in India, passionate about building impactful web
-                experiences from anywhere.
+                I'm a passionate Full Stack & 3D Web Developer based in India,
+                skilled in React, Node.js, and Three.js. I love building
+                responsive, interactive, and visually engaging websites like my
+                3D portfolio and Wanderlust project. With experience in both web
+                development and AI tools, I'm open to working on-site or
+                remotely. Let’s connect and create something impactful!
               </p>
-              <Button
-                name="Contact Me"
-                isBeam
-                containerClass="w-full mt-24"
-                id="contact"
-              />
             </div>
           </div>
         </div>
