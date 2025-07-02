@@ -17,7 +17,7 @@ const Footer = () => {
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
         </a>
         <a
-          href="https://twitter.com/"
+          href="https://x.com/RajatSen1304"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
@@ -29,7 +29,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/rajatsen999/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"

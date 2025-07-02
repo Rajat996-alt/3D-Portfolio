@@ -81,7 +81,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I work remotely and am open to global opportunities.
+                I am open to working both on-site at a company and remotely
               </p>
               <p className="grid-subtext">
                 I'm based in India, passionate about building impactful web
