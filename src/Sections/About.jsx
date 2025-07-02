@@ -87,7 +87,12 @@ const About = () => {
                 I'm based in India, passionate about building impactful web
                 experiences from anywhere.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-24" />
+              <Button
+                name="Contact Me"
+                isBeam
+                containerClass="w-full mt-24"
+                id="contact"
+              />
             </div>
           </div>
         </div>
