@@ -5,9 +5,8 @@ import gsap from "gsap";
 
 const Target = (props) => {
   const targetRef = useRef();
-  const { scene } = useGLTF(
-    "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf"
-  );
+  // Use local model as the external Supabase URL is currently unreachable
+  const { scene } = useGLTF("models/react.glb");
 
   useGSAP(() => {
     gsap.to(targetRef.current.position, {
