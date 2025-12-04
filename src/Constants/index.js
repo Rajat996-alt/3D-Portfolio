@@ -106,7 +106,7 @@ export const myProjects = [
     desc: "Mentora is a full-stack LMS with AI-powered semantic search, course management, payments, and rich dashboards for creators and students.",
     subdesc:
       "Built using React, Redux, Node.js, Express, MongoDB, and JWT. Integrated Google Gemini API for semantic search & voice queries, Razorpay for payments, and Cloudinary for video uploads.",
-    href: "https://github.com/rajat7568/Mentora_LMS", // change if needed
+    href: "https://github.com/Rajat996-alt/Mentora_LMS",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -129,7 +129,7 @@ export const myProjects = [
     desc: "DevSpark is a networking platform where developers can connect, send requests, chat in real time, and share work updates. It focuses on creating meaningful professional interactions in a clean and intuitive interface.",
     subdesc:
       "Developed using React, Redux, Node.js, Express, MongoDB, Socket.io, and JWT. Features include real-time messaging, feeds, profile management, and efficient REST APIs.",
-    href: "https://github.com/rajat7568/DevSpark", // change if needed
+    href: "https://github.com/Rajat996-alt/DevSpark",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
