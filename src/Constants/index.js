@@ -72,23 +72,12 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight2.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        path: "/assets/css.png",
-      },
-      {
-        id: 3,
-        name: "PokéAPI",
-        path: "/assets/api.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "CSS", path: "/assets/css.png" },
+      { id: 3, name: "PokéAPI", path: "/assets/api.png" },
     ],
   },
+
   {
     title: "Wanderlust - Travel Listing Platform",
     desc: "Wanderlust is a feature-rich travel and accommodation platform, built to simplify the process of discovering and booking unique stays worldwide. It allows users to list properties, explore destinations, and make secure bookings with ease.",
@@ -104,26 +93,56 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
-      {
-        id: 1,
-        name: "JavaScrpit",
-        path: "/assets/javascript.png",
-      },
-      {
-        id: 2,
-        name: "Node.js",
-        path: "/assets/node.png",
-      },
-      {
-        id: 3,
-        name: "Express.js",
-        path: "/assets/express.png",
-      },
-      {
-        id: 4,
-        name: "MongoDB",
-        path: "/assets/mongodb.png",
-      },
+      { id: 1, name: "JavaScript", path: "/assets/javascript.png" },
+      { id: 2, name: "Node.js", path: "/assets/node.png" },
+      { id: 3, name: "Express.js", path: "/assets/express.png" },
+      { id: 4, name: "MongoDB", path: "/assets/mongodb.png" },
+    ],
+  },
+
+  // ⭐ NEW PROJECT 1 — Mentora
+  {
+    title: "Mentora – AI-Powered Learning Management System",
+    desc: "Mentora is a full-stack LMS with AI-powered semantic search, course management, payments, and rich dashboards for creators and students.",
+    subdesc:
+      "Built using React, Redux, Node.js, Express, MongoDB, and JWT. Integrated Google Gemini API for semantic search & voice queries, Razorpay for payments, and Cloudinary for video uploads.",
+    href: "https://github.com/rajat7568/Mentora_LMS", // change if needed
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/project-logo3.png",
+    logoStyle: {
+      backgroundColor: "#162038",
+      border: "0.2px solid #23314A",
+      boxShadow: "0px 0px 60px 0px #3D6BFF4D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "Node.js", path: "/assets/node.png" },
+      { id: 3, name: "Express", path: "/assets/express.png" },
+      { id: 4, name: "MongoDB", path: "/assets/mongodb.png" },
+    ],
+  },
+
+  // ⭐ NEW PROJECT 2 — DevSpark
+  {
+    title: "DevSpark – Developer Community Platform",
+    desc: "DevSpark is a networking platform where developers can connect, send requests, chat in real time, and share work updates. It focuses on creating meaningful professional interactions in a clean and intuitive interface.",
+    subdesc:
+      "Developed using React, Redux, Node.js, Express, MongoDB, Socket.io, and JWT. Features include real-time messaging, feeds, profile management, and efficient REST APIs.",
+    href: "https://github.com/rajat7568/DevSpark", // change if needed
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: "#1A1A1A",
+      border: "0.2px solid #333333",
+      boxShadow: "0px 0px 60px 0px #FF914D4D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "Node.js", path: "/assets/node.png" },
+      { id: 3, name: "Express.js", path: "/assets/express.png" },
+      { id: 4, name: "MongoDB", path: "/assets/mongodb.png" },
     ],
   },
 ];
@@ -168,7 +187,7 @@ export const workExperiences = [
     id: 1,
     name: "Code Spiral Technology, Lucknow",
     pos: "Software Development Intern",
-    duration: "May 2025 - Present",
+    duration: "May 2025 - Nov 2025",
     title:
       "Working on real-world full-stack projects, including Wanderlust – a travel listing platform. Focused on backend development, REST APIs, and integrating Mapbox for dynamic maps.",
     icon: "/assets/webdev.jpeg",
